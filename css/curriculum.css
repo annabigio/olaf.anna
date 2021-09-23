@@ -1,0 +1,762 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;400&family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Rampart+One&display=swap');
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;}
+
+body{
+	background-color:#0a3d62;
+	; 
+}
+#main{
+	width: 80%;
+	height: 430px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#columna{
+	width: 700px;
+	height: 550px;
+	padding: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	column-count: 3;
+	background-color: #70a1ff;
+	column-rule: 2px solid #1B1464;
+	border-color: #1B1464;
+	border-width: 3px;
+	border-style: solid;
+  
+
+}
+.foto{
+	width: 580px;
+          height:170px;
+         padding-right: 30%;
+          margin-left: 50%;
+          margin-top: 0%;
+          background: 
+          url(../img/frozen.png) left top no-repeat;
+
+        
+          background-size: 120px 130px;
+
+         }
+.frozen{
+	width: 580px;
+          height:170px;
+         padding-right: 50%;
+          margin-left: 20%;
+          margin-top: -27%;
+          background: 
+          url(../img/frozenolaf.jpeg) right bottom no-repeat;
+
+          background-size: 120px 130px;
+
+
+}
+.olaf{
+	width: 580px;
+          height:170px;
+         padding-right: 50%;
+          margin-left: -3%;
+          margin-top: -21%;
+          background: 
+          url(../img/olaf2.png) right bottom no-repeat;
+
+          background-size: 90px 100px;
+
+
+}
+.olaf1{
+	width: 580px;
+          height:170px;
+         padding-right: 10%;
+          margin-left: -18%;
+          margin-top: -20%;
+          background: 
+          url(../img/olaf3.png) right bottom no-repeat;
+
+          background-size: 130px 140px;
+
+
+}
+.olaf2{
+	width: 580px;
+          height:170px;
+         padding-right: 10%;
+          margin-left: -52%;
+          margin-top: -21.5%;
+          background: 
+          url(../img/olaf4.png) right bottom no-repeat;
+
+          background-size: 130px 140px;
+
+
+}
+.titulo{
+	font-size: 22px;
+ font-family: 'Sigmar One', cursive;
+ color: #0c2461;
+
+}
+.parrafo{
+	font-size: 15px;
+	font-family: 'Crimson Pro', serif;
+}
+ #cv{
+ 	margin-left: 37%;
+ 	padding-top: 2.5%;
+ 	color: #40739e;
+ 	font-size: 60px;
+ 	font-family: 'Rampart One', cursive; 
+
+
+   
+   text-shadow: 10px 10px 10px #cccccc;
+ }
+#header{
+	width: 100%;
+	height: 90px;
+	background-color: #ffffff;
+}
+
+#nav{
+	width: 100%;
+	height: 80px;
+	background-image: url(../img/NIEVE.png);
+	background-size:400px 200px ;
+	padding-left: 40%;
+	padding-top: 28px;
+background-color:  #70a1ff;
+
+}
+#section{
+
+	width: 100%;
+	height: 500px;
+	padding-top: 5%;
+	background-color: #6a89cc;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+.nombre{
+
+	margin-top: 2%;
+	margin-left:50%;
+	padding-left: 80%;
+	font-size: 20px;
+		text-decoration: none;
+	color: #5758BB;
+
+}
+.up{
+width: 15%;
+height: 45px;
+margin-left: 85%;
+	margin-top: -10%;
+	float: left;
+}
+#footer{
+	width: 100%;
+	height: 50px;
+	background-color: #60a3bc;
+		clear: both;
+		padding-left: 45%;
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+	#main{
+	width: 90%;
+	height: 630px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#columna{
+	width: 360px;
+	height: 450px;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	column-count: 1;
+	background-color: #70a1ff;
+	column-rule: 2px solid #1B1464;
+	border-color: #1B1464;
+	border-width: 3px;
+	border-style: solid; }
+	#section{
+
+	width: 100%;
+	height: 500px;
+	padding-top: 5%;
+	background-color: #6a89cc;
+	margin-left: auto;
+	margin-right: auto;
+  
+
+}
+#nav{
+	width: 100%;
+	height: 80px;
+background-image: url(../img/NIEVE.png);
+	background-size:400px 200px  ;
+	padding-left: 35%;
+	padding-top: 0%;
+background-color: #70a1ff;
+
+}
+
+.titulo{
+	font-size: 15px;
+ font-family: 'Sigmar One', cursive;
+ color: #0c2461;
+
+}
+.parrafo{
+	font-size: 10px;
+		font-family: 'Gluten', cursive;
+}
+ #cv{
+ 	margin-left: 3%;
+ 	padding-top: 2%;
+ 	color: #40739e;
+ 	font-size: 46px;
+font-family: 'Rampart One', cursive;
+   
+   text-shadow: 10px 10px 10px #cccccc;
+ }
+.foto{
+	width: 580px;
+          height:170px;
+         padding-right: 50%;
+          margin-left: 82%;
+          margin-top: -12%;
+          background: 
+          url(../img/frozen.png) left top no-repeat;
+
+        
+          background-size: 90px 90px;
+
+         }
+.nombre{
+
+	margin-top: 3%;
+	margin-left:50%;
+	padding-left: 80%;
+	font-size: 15px;
+		text-decoration: none;
+	color: #5758BB;
+
+}
+.olaf1{
+	
+	display: none;
+}
+.olaf2{
+	display: none;
+}
+.frozen{
+	display: none;
+}
+.olaf{display: none;}
+
+.up{
+width: 20%;
+height: 45px;
+margin-left: 80%;
+	margin-top: -11%;
+	float: left;
+}
+#footer{
+	width: 100%;
+	height: 50px;
+	background-color: #60a3bc;
+		clear: both;
+		padding-left: 45%;
+}
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 1199px)
+{
+
+
+#columna{
+	width: 450px;
+	height: 390px;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	margin-left: auto;
+	margin-right: auto;
+	column-count: 2;
+	
+  }
+#header{
+	width: 100%;
+	height: 70px;
+	background-color: #ffffff;
+}
+
+.titulo{
+	font-size: 18px;
+ font-family: 'Sigmar One', cursive;
+ color: #0c2461;
+
+}
+.parrafo{
+	font-size: 13px;
+	font-family: 'Gluten', cursive;
+}
+ #cv{
+ 	margin-left: 3%;
+ 	padding-top: 0%;
+ 	color: #40739e;
+ 	font-size: 58px;
+font-family: 'Rampart One', cursive;
+
+   
+   text-shadow: 10px 10px 10px #cccccc;
+ }
+
+.frozen{
+	width: 580px;
+          height:170px;
+         padding-right: 50%;
+
+          margin-left: 5%;
+          margin-top: -57%;
+          background: 
+          url(../img/frozenolaf.png) right bottom no-repeat;
+
+          background-size: 120px 130px;
+
+
+}
+.olaf{
+	display: none;
+
+
+}
+.olaf1{
+	width: 580px;
+          height:170px;
+         padding-right: 87%;
+         padding-top: 30%;
+          margin-left: 10%;
+          margin-top: 1.5%;
+          background: 
+          url(../img/olaf3.png) right bottom no-repeat;
+
+          background-size: 130px 140px;
+
+
+
+}
+.foto{
+	width: 580px;
+          height:170px;
+         padding-right: 75%;
+         padding-top: -30%;
+          margin-left: 3%;
+          margin-top: -28%;
+          background: 
+          url(../img/frozen.png) left top no-repeat;
+
+        
+          background-size: 120px 130px;}
+
+
+.olaf2{
+	display: none;
+
+
+}
+.up{
+width: 20%;
+height: 45px;
+margin-left: 80%;
+	margin-top: -7%;
+	float: left;
+}
+#footer{
+	width: 100%;
+	height: 50px;
+	background-color: #60a3bc;
+		clear: both;
+		padding-left: 45%;
+}
+
+.nombre{
+
+	margin-top: 1%;
+	margin-left:50%;
+	padding-left: 80%;
+	font-size: 15px;
+		text-decoration: none;
+	color: #5758BB;
+
+}
+}
+ /* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px)
+{ #main{
+	width: 80%;
+	height: 430px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#columna{
+	width: 700px;
+	height: 400px;
+	padding: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	column-count: 3;
+	background-color: #70a1ff;
+	column-rule: 2px solid #1B1464;
+	border-color: #1B1464;
+	border-width: 3px;
+	border-style: solid;
+  
+
+}
+
+.frozen{
+	width: 580px;
+          height:170px;
+         padding-right: 50%;
+
+          margin-left: 30%;
+          margin-top: -48%;
+          background: 
+          url(../img/frozenolaf.png) right bottom no-repeat;
+
+          background-size: 120px 130px;
+
+
+}
+.olaf{
+	width: 580px;
+          height:170px;
+         padding-right: 10%;
+         padding-top: 10%;
+          margin-left: 43%;
+          margin-top: -9%;
+          background: 
+          url(../img/olaf2.png) right bottom no-repeat;
+
+          background-size: 90px 100px;
+
+
+}
+.olaf1{
+	width: 580px;
+          height:170px;
+         padding-right: 87%;
+         padding-top: 30%;
+          margin-left: 10%;
+          margin-top: -10%;
+          background: 
+          url(../img/olaf3.png) right bottom no-repeat;
+
+          background-size: 130px 140px;
+
+
+}
+.olaf2{
+	width: 580px;
+          height:170px;
+         padding-right: 10%;
+          margin-left: -38%;
+          margin-top: -32%;
+          background: 
+          url(../img/olaf4.png) right bottom no-repeat;
+
+          background-size: 130px 140px;
+
+
+}
+.foto{
+	width: 580px;
+          height:170px;
+         padding-right: 75%;
+         padding-top: -20%;
+          margin-left: 3%;
+          margin-top: -14%;
+          background: 
+          url(../img/frozen.png) left top no-repeat;
+
+        
+          background-size: 120px 130px;}
+
+
+
+
+.titulo{
+	font-size: 22px;
+ font-family: 'Sigmar One', cursive;
+ color: #0c2461;
+
+}
+.parrafo{
+	font-size: 15px;
+font-family: 'Gluten', cursive;
+}
+ #cv{
+margin-left: 3%;
+ 	padding-top: 0%;
+
+ 	color: #40739e;
+ 	font-size: 58px;
+font-family: 'Rampart One', cursive;
+
+   
+   text-shadow: 10px 10px 10px #cccccc;
+ }
+#header{
+	width: 100%;
+	height: 90px;
+	background-color: #ffffff;
+}
+
+#nav{
+	width: 100%;
+	height: 80px;background-image: url(../img/NIEVE.png);
+	background-size:400px 200px ;
+	padding-left: 40%;
+	padding-top: 25px;
+	background-color: #70a1ff;
+
+}
+#section{
+
+	width: 100%;
+	height: 500px;
+	padding-top: 5%;
+	background-color: #6a89cc;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+.nombre{
+
+	margin-top: 2%;
+	margin-left:50%;
+	padding-left: 80%;
+	font-size: 20px;
+		text-decoration: none;
+	color: #5758BB;
+
+}
+.up{
+width: 15%;
+height: 45px;
+margin-left: 85%;
+	margin-top: -7%;
+	float: left;
+}
+#footer{
+	width: 100%;
+	height: 50px;
+	background-color: #60a3bc;
+		clear: both;
+		padding-left: 45%;
+}
+
+ }
+
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px)and (max-width: 2000px)
+{
+
+#main{
+	width: 80%;
+	height: 630px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+#columna{
+	width: 850px;
+	height: 400px;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	margin-left: auto;
+	margin-right: auto;
+	column-count: 3;
+	
+  }
+#header{
+	width: 100%;
+	height: 100px;
+	background-color: #ffffff;
+}
+
+.titulo{
+	font-size: 25px;
+ font-family: 'Sigmar One', cursive;
+ color: #0c2461;
+
+}
+.parrafo{
+	font-size: 18px;
+font-family: 'Gluten', cursive;
+}
+
+ #cv{
+ 	margin-left: 3%;
+ 	padding-top: 0%;
+ 	color: #40739e;
+ 	font-size: 58px;
+font-family: 'Rampart One', cursive;
+   text-shadow: 10px 10px 10px #cccccc;
+ }
+ .origen{ 
+
+ padding-top: 2px; 
+ PA
+}
+
+.foto{
+	width: 580px;
+          height:170px;
+         padding-right: 50%;
+          margin-left: 25%;
+          margin-top:-2%;
+          background: 
+          url(../img/frozen.png) left top no-repeat;
+
+        
+          background-size: 120px 130px;
+
+         }
+  #nav{
+	width: 100%;
+	height: 80px;
+	background-image: url(../img/NIEVE.png);
+	background-size:400px 200px ;
+	padding-left: 39%;
+	padding-top: 25px;
+	background-color:#70a1ff;
+
+}
+.frozen{
+	width: 580px;
+          height:170px;
+         padding-right: 50%;
+
+          margin-left: 30%;
+          margin-top: -42%;
+          background: 
+          url(../img/frozenolaf.png) right bottom no-repeat;
+
+          background-size: 120px 130px;
+
+
+}
+.olaf{
+	width: 580px;
+          height:170px;
+         padding-right: 10%;
+         padding-top: -3%;
+          margin-left: 48%;
+          margin-top: -7%;
+          background: 
+          url(../img/olaf2.png) right bottom no-repeat;
+
+          background-size: 90px 100px;
+
+
+}
+.olaf1{
+	width: 580px;
+          height:170px;
+         padding-right: 87%;
+         padding-top: 30%;
+          margin-left: 10%;
+          margin-top: -13%;
+          background: 
+          url(../img/olaf3.png) right bottom no-repeat;
+
+          background-size: 130px 140px;
+
+
+}
+.olaf2{
+	width: 580px;
+          height:170px;
+         padding-right: 10%;
+          margin-left: -35%;
+          margin-top: -30%;
+          background: 
+          url(../img/olaf4.png) right bottom no-repeat;
+
+          background-size: 130px 140px;
+
+
+}
+.foto{
+	width: 580px;
+          height:170px;
+         padding-right: 75%;
+         padding-top: -20%;
+          margin-left: 3%;
+          margin-top: -14%;
+          background: 
+          url(../img/frozen.png) left top no-repeat;
+
+        
+          background-size: 120px 130px;}
+
+
+
+.up{
+width: 15%;
+height: 45px;
+margin-left: 80%;
+	margin-top: -7%;
+	float: left;
+}
+#footer{
+	width: 100%;
+	height: 50px;
+	background-color: #60a3bc;
+		clear: both;
+		padding-left: 45%;
+}
+.nombre{
+
+	margin-top: 1%;
+	margin-left:50%;
+	padding-left: 80%;
+	font-size: 20px;
+		text-decoration: none;
+	color: #5758BB;
+
+}
